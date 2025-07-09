@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualisasi Data Lingkungan Hidup Provinsi di Indonesia</title>
+
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <nav class="fixed1">
+        <div class="flex-nav margin-navbar">
+          <div>
+            <a class="text-decoration logo-nama">
+              <p>Brazzera Firdaus</p>
+            </a>
+          </div>
+          <div
+            id="myLinks"
+            class="flex-nav grid-gap hamburger-menu"
+            style="margin-top: 20px"
+          >
+            <li>
+              <a href="#beranda" class="text-decoration bg-menu">Beranda</a>
+            </li>
+            <li>
+              <a href="#dashboard" class="text-decoration bg-menu">Dashboard</a>
+            </li>
+            <li>
+              <a href="#statistik" class="text-decoration bg-menu">Statistik</a>
+            </li>
+            <li>
+              <a href="#lainnya" class="text-decoration bg-menu">Lainnya</a>
+            </li>
+            
+          </div>
+          <a
+            href="javascript:void(0);"
+            class="toggle_btn"
+            onclick="myFunction()"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main id="beranda">
+      <!-- Article Start -->
+      <article class="article1" id="dashboard">
+        <p class="intro">Visualisasi Data</p>
+        <h1 class="judul-h1">Lingkungan Hidup Provinsi di Indonesia</h1>
+        <p class="penjelasan-article1">
+          Dashboard Visualisasi Data Lingkungan Hidup Provinsi di Indonesia 2018
+          - 2022
+        </p>
+        <div class="iframe-container">
+          <iframe
+            width="600"
+            height="600"
+            src="https://lookerstudio.google.com/embed/reporting/7fc1ec39-3cea-4a68-8378-6039a0066ae9/page/liN4D"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen
+            sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+          ></iframe>
+        </div>
+        <p class="container teks-pengenalan">
+          Pada dashboard visualisasi data lingkungan hidup provinsi di Indonesia, terdapat peta yang menampilkan sebaran provinsi 
+          dengan total 34 provinsi dan 14.856 pulau. Visualisasi ini dilengkapi dengan fitur kontrol filter untuk pencarian berdasarkan 
+          nama provinsi. Di bagian bawah dashboard, provinsi-provinsi tersebut diidentifikasi dengan gelembung warna yang 
+          berbeda. <br /><br />
+          Data yang digunakan dalam visualisasi ini bersumber dari BPS (Badan Pusat Statistik) dan merupakan data sekunder. 
+          Oleh karena itu, terdapat kemungkinan adanya ketidakakuratan atau ketidaklengkapan dalam data terkait lingkungan hidup 
+          yang disajikan. <br /><br />
+        </p>
+      </article>
+
+      <hr style="border: 1px solid #db3737" />
+
+      <article style="padding-top: 50px; padding-bottom: 50px" id="statistik">
+        <h2 class="judul-article3">Statistik</h2>
+        <p class="penjelasan-article2">
+          Beberapa Statistik yang telah dikumpulkan seperti berikut ini
+        </p>
+        <div class="iframe-container2">
+          <iframe
+            src="https://lookerstudio.google.com/embed/reporting/c9e51cb4-1bfd-4414-a963-3faddb29ba5e"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h2 class="judul-article3">Insight</h2>
+        <p class="penjelasan-article2">
+          Penjelasan mengenai visualisasi diatas
+        </p>
+        <div class="container flex-content-fakta">
+          <div class="card1">
+            <img
+              src="assets\img\PenyinaranMatahari.png"
+              class="img-article2" alt="">
+            <h4 class="judul-card">Penyinaran Matahari (Jam)</h4>
+            <p class="penjelasan-card">
+              menggambarkan rata-rata penyinaran matahari di berbagai provinsi. Nusa Tenggara Timur tercatat sebagai provinsi 
+              dengan penyinaran matahari tertinggi (7,79 jam per hari), diikuti oleh Jawa Tengah (6,6 jam) dan Bali (5,92 jam). 
+              Di sisi lain, Papua memiliki rata-rata penyinaran matahari terendah (5,27 jam per hari).
+            </p>
+          </div>
+          <div class="card1">
+            <img
+              src="assets\img\JumlahCurahHujanhr.png"
+              class="img-article2"
+              alt=""
+            />
+            <h4 class="judul-card">Jumlah Hari Hujan (Hari)</h4>
+            <p class="penjelasan-card">
+              Diagram batang horizontal kedua menunjukkan jumlah hari hujan di setiap provinsi. Maluku mencatat jumlah hari hujan 
+              terbanyak (244 hari), diikuti oleh Jawa Barat (239 hari) dan Kalimantan Barat (238 hari). Sementara itu, Papua 
+              memiliki jumlah hari hujan terendah (207 hari).
+            </p>
+          </div>
+          <div class="card1">
+            <img
+              src="assets\img\JumlahCurahHujammm.png"
+              class="img-article2"
+              alt=""
+            />
+            <h4 class="judul-card">Jumlah  Curah Hujan (mm/tahun)</h4>
+            <p class="penjelasan-card">
+              Diagram batang vertikal ini menampilkan jumlah curah hujan tahunan di setiap provinsi. Sumatera Barat mencatat 
+              curah hujan tertinggi (4.700 mm per tahun), diikuti oleh Bengkulu (4.500 mm) dan Jawa Barat (3.800 mm). DI Yogyakarta 
+              memiliki curah hujan terendah di antara provinsi yang diamati (3.200 mm per tahun).
+            </p>
+          </div>
+          <div class="card1">
+            <img
+              src="assets\img\scatter.png"
+              class="img-article2"
+              alt=""
+            />
+            <h4 class="judul-card">Tingkat Sanitasi layak, produksi sampah, dan perlakuan sampah</h4>
+            <p class="penjelasan-card">
+              Diagram sebar di bagian bawah menunjukkan korelasi antara jumlah produksi sampah dan akses sanitasi layak di berbagai 
+              provinsi. Sumbu X mewakili akses sanitasi layak, sementara sumbu Y menunjukkan jumlah produksi sampah. Ukuran gelembung 
+              menggambarkan volume sampah yang dikelola di setiap provinsi. Provinsi seperti Sumatera Utara dan Riau menonjol dengan 
+              produksi sampah tinggi dan akses sanitasi layak yang baik, sementara Maluku Utara memiliki produksi sampah yang lebih 
+              rendah meskipun akses sanitasinya juga baik.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <hr style="border: 1px solid #db3737" />
+
+      <div id="lainnya">
+        <article class="tsunami-gempa">
+          <h2 class="judul-article4">Luas Wilayah dan Rata-Rata Suhu</h2>
+          <div class="iframe-container3">
+            <iframe
+              src="https://lookerstudio.google.com/embed/reporting/ab6c5567-83ab-47a7-b2dd-16aa98704f45/page/p_pmxqwdo1id"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+
+        <article class="article2 container2" id="sejarah">
+          <img src="assets\img\luaswilayah.png" alt="" class="border-img" />
+          <div class="text-article2">
+            <h2 class="judul-article2">Insight Luas Wilayah</h2>
+            <p class="teks-sejarah">
+              luas wilayah berbagai provinsi di Indonesia menunjukkan variasi yang signifikan. Papua mencatatkan luas wilayah terbesar, 
+              yaitu 312,816.36 km², diikuti oleh provinsi-provinsi lain seperti Kalimantan Barat dan Kalimantan Timur. Sementara itu, 
+              Nusa Tenggara Timur memiliki luas wilayah yang lebih kecil dibandingkan provinsi-provinsi besar lainnya.
+            </p>
+            
+          </div>
+        </article>
+        <article class="article3 container2" id="sejarah">
+          <div class="text-article2">
+            <h2 class="judul-article2">Insight Rata-Rata Suhu</h2>
+            <p class="teks-sejarah">
+              suhu rata-rata di berbagai provinsi juga menunjukkan perbedaan yang mencolok. Suhu rata-rata tertinggi tercatat di 
+              DKI Jakarta dengan angka mencapai 29.41°C. Sebaliknya, suhu rata-rata terendah ditemukan di daerah seperti Papua dan 
+              Nusa Tenggara Timur, yang cenderung lebih sejuk dibandingkan provinsi lain di Indonesia. Perbedaan suhu ini mencerminkan 
+              variasi iklim yang signifikan di seluruh wilayah kepulauan Indonesia​.
+            </p>
+            
+          </div>
+          <img src="assets\img\rataratasuhu.png" alt="" class="border-img" />
+        </article>
+      </div>
+        </div>
+      </article>
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+  <!-- Footer Start -->
+  <main id="Pembuat">
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section about">
+      <h4 class="footer-title">Tentang</h4>
+      <p>
+        Website ini dibuat untuk memberikan visualisasi data mengenai gunung berapi di Indonesia, termasuk informasi tentang erupsi, korban, dan statistik lainnya.
+      </p>
+    </div>
+    <div class="footer-section contact">
+      <h4 class="footer-title">Kontak</h4>
+      <p>Nama: Brazzera Firdaus</p>
+      <p>Email: brazzerafirdaus22@gmail.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Visualisasi Data Lingkungan Hidup Provinsi di Indonesia | Dibuat oleh Brazzera Firdaus</p>
+  </div>
+</footer>
+    <!-- Footer End -->
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-oUynB6STvGFfO6iTWgrKnw+ErmsMBbcdIE/XYN3Qo6Y="
+      crossorigin=""
+    ></script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
